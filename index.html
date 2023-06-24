@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="style.css" type="text">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,300&display=swap');
+body{
+  font-family: 'Playfair', serif;
+}
+.bx{
+  height: 200px;
+  weight:200px;
+  border: 1px solid black;
+  margin: 10px 5px 4px 6px;
+  padding: 5px 10px 9px 12px;
+}
+
+h1{
+  font-size: 30px;
+}
+    p:hover::before{
+      content: hello world;
+      color: navy;
+      font-size: 20px;
+    }
+  </style>
 </head>
 <body>
-  <h1 style="color: teal;">Hello Css </h1>
-
-  
+  <div class="bx">
+  <h1>Hello Font</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum fugiat nemo, libero, sapiente inventore blanditiis dolor explicabo cum laudantium atque ipsum nihil qui soluta tempora sed impedit odit necessitatibus suscipit!</p>
+</div>
 </body>
 </html>
